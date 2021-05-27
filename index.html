@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Making connections</title>
+</head>
+
+<body>
+
+
+    <nav>
+        <div class=navbarprfl>
+            <h1 class="profile">Profile</h1>
+        </div>
+        <h3>Home</h3>
+        <h3>My Profile</h3>
+        <h3>Settings</h3>
+        <button class="signout">Sign Out</button>
+    </nav>
+
+
+    <div class="page">
+
+        <div class="sa">
+            <section>
+                <div class="bluerect"><img class="profilepic" src="user-circle.png" alt="profile"></div>
+                <h1>Jane Doe</h1>
+                <h4>Seatle</h4>
+                <p>Developer | Engineer | Problem Solver </p>
+                <p>Master of Shadows and the Internet</p>
+            </section>
+
+            <article>
+                <div class="blackrect">
+                    <h2>Education</h2>
+                </div>
+                <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                <p>Dec 2019 - Mar 2020</p>
+                <p>Triple black belt in Python, MERN, and C#.... </p>
+            </article>
+        </div>
+
+        <div class="aa">
+            <aside>
+                <div class="blackrect">
+                    <h2>Connection Requests</h2>
+                </div>
+                <div id="todd">
+                    <h2>Todd E </h2>
+                    <button onclick="buttonrem(todd)"><img class="btn" src="accept-circle.png" alt="check"></button>
+
+                    <button onclick="buttonrem(phill)"><img class="btn" src="close-circle.png" alt="check"></button>
+                </div>
+                <div id="phill">
+                    <h2>Phil k </h2>
+                    <button onclick="buttonrem(phill)"><img class="btn" src="accept-circle.png" alt="check"></button>
+
+                    <button onclick="buttonrem(phill)"><img class="btn" src="close-circle.png" alt="check"></button>
+
+
+                </div>
+            </aside>
+
+            <aside>
+                <div>
+                    <div class="blackrect">
+                        <h2>Your Connections</h2>
+                    </div>
+                    <h2>Adrien D</h2>
+                    <h2>Anne J</h2>
+                    <h2>Alayne T</h2>
+                    <h2>Arry Y</h2>
+
+                    <div><a href="---">View More</a></div>
+                </div>
+            </aside>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

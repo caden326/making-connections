@@ -1,0 +1,72 @@
+
+
+.page{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 30px;
+}
+
+.sa{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.aa{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+    nav{
+        width: 100vw;
+        height: 70px;
+        background-color: black;
+        display: flex;
+        color: white;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1.5em;
+    }
+
+    .navbarprfl{
+        position: absolute;
+        left: 20px;
+    }
+
+section{
+    height: 300px;
+    width: 330px;
+    outline: solid 5px grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.bluerect{
+        height: 60px;
+        width: auto;
+        background-color:  lightseagreen;
+    }
+    .profilepic{
+        height: 70px;
+        width: 70px;
+    }
+
+aside{
+    outline: solid 5px grey;
+}
+
+article{
+    outline: solid 5px grey; 
+}
+.blackrect{
+    height: 40px;
+    width: auto;
+    background-color: black;
+    color: white;
+}
+.btn{
+    height: 20px;
+    width: 20px;
+}
